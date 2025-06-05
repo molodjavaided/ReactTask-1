@@ -4,9 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0) // это относится к декларативному блоку
 
-  return (
+  return ( // все что возвразается относиться к декларативному блоку, а остальное императивное
     <>
       <div>
         <a href="https://vite.dev" target="_blank">
